@@ -38,7 +38,7 @@ var SpecialRegions = []struct {
 		// regionID: 10000002
 		name:    "jita",
 		systems: []int64{30000142},
-	}
+	},
 }
 
 // PriceFetcher fetches prices and populates the given priceDB
