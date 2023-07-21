@@ -7,7 +7,7 @@ func init() {
 	viper.SetDefault("http_addr", ":8080")
 	viper.SetDefault("http_redirect", false)
 	viper.SetDefault("https_addr", "")
-	viper.SetDefault("https_domain-whitelist", []string{"evepraisal.com"})
+	viper.SetDefault("https_domain-whitelist", []string{"praisal.avanto.tk"})
 	viper.SetDefault("letsencrypt_email", "")
 	viper.SetDefault("db_path", "db/")
 	viper.SetDefault("backup_path", "db/backups/")
