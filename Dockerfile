@@ -1,4 +1,4 @@
-FROM golang:1.11-alpine
+FROM golang:1.18-alpine
 LABEL maintainer="calli-eve <https://github.com/calli-eve/go-evepraisal>"
 WORKDIR $GOPATH/src/github.com/calli-eve/go-evepraisal
 RUN apk --update add --no-cache --virtual build-dependencies git gcc musl-dev make bash && \
