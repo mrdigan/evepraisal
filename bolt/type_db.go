@@ -12,7 +12,7 @@ import (
 
 	bleve "github.com/blevesearch/bleve/v2"
 	"github.com/boltdb/bolt"
-	"github.com/evepraisal/go-evepraisal/typedb"
+	"github.com/calli-eve/go-evepraisal/typedb"
 	"github.com/golang/snappy"
 )
 

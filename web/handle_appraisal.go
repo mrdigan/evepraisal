@@ -16,9 +16,9 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/evepraisal/go-evepraisal"
-	"github.com/evepraisal/go-evepraisal/legacy"
-	"github.com/evepraisal/go-evepraisal/parsers"
+	"github.com/calli-eve/go-evepraisal"
+	"github.com/calli-eve/go-evepraisal/legacy"
+	"github.com/calli-eve/go-evepraisal/parsers"
 	"github.com/go-zoo/bone"
 	"github.com/mssola/user_agent"
 )

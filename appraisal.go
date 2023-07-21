@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/evepraisal/go-evepraisal/parsers"
-	"github.com/evepraisal/go-evepraisal/typedb"
+	"github.com/calli-eve/go-evepraisal/parsers"
+	"github.com/calli-eve/go-evepraisal/typedb"
 )
 
 var (
