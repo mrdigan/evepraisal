@@ -1,6 +1,10 @@
 # Evepraisal
 
-Evepraisal is a bulk-price estimator for Eve Online.
+Evepraisal is a bulk-price estimator for Eve Online. Forked from: https://github.com/evepraisal/go-evepraisal
+
+Hosted at: https://praisal.avanto.tk.
+
+Price information is limited to Jita and polling rate is decreased to 60 minutes from the original.
 
 ## Docker Instructions (production)
 
