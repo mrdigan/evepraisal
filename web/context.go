@@ -5,8 +5,8 @@ import (
 
 	"golang.org/x/oauth2"
 
-	"github.com/calli-eve/go-evepraisal"
 	"github.com/gorilla/sessions"
+	"github.com/mrdigan/evepraisal"
 )
 
 // Context contains all of the 'global' app context for the HTTP app

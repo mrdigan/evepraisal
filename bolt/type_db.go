@@ -12,8 +12,8 @@ import (
 
 	bleve "github.com/blevesearch/bleve/v2"
 	"github.com/boltdb/bolt"
-	"github.com/calli-eve/go-evepraisal/typedb"
 	"github.com/golang/snappy"
+	"github.com/mrdigan/evepraisal/typedb"
 )
 
 // TypeDB holds all EveTypes

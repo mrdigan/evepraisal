@@ -1,4 +1,4 @@
-module github.com/calli-eve/go-evepraisal
+module github.com/mrdigan/evepraisal
 
 go 1.19
 

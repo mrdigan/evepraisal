@@ -1,8 +1,8 @@
 FROM golang:1.18-alpine
-LABEL maintainer="calli-eve <https://github.com/calli-eve/go-evepraisal>"
-WORKDIR $GOPATH/src/github.com/calli-eve/go-evepraisal
+LABEL maintainer="calli-eve <https://github.com/mrdigan/evepraisal>"
+WORKDIR $GOPATH/src/github.com/mrdigan/evepraisal
 RUN apk --update add --no-cache --virtual build-dependencies git gcc musl-dev make bash && \
-    git clone https://github.com/calli-eve/go-evepraisal.git . && \
+    git clone https://github.com/mrdigan/evepraisal.git . && \
     export GO111MODULE=on ENV=prod && \
     make setup && \
     make build && \

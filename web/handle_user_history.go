@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/calli-eve/go-evepraisal"
+	"github.com/mrdigan/evepraisal"
 )
 
 // HandleUserHistoryAppraisals is the handler for /user/latest

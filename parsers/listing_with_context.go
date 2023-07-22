@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/calli-eve/go-evepraisal/typedb"
+	"github.com/mrdigan/evepraisal/typedb"
 )
 
 // ContextListingParser is a parser which uses the typeDB to help parse a listing

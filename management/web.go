@@ -9,9 +9,9 @@ import (
 	"strconv"
 
 	"github.com/boltdb/bolt"
-	"github.com/calli-eve/go-evepraisal"
-	boltdb "github.com/calli-eve/go-evepraisal/bolt"
 	"github.com/husobee/vestigo"
+	"github.com/mrdigan/evepraisal"
+	boltdb "github.com/mrdigan/evepraisal/bolt"
 )
 
 // Context is the context that the web management needs

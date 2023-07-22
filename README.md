@@ -2,7 +2,7 @@
 
 Evepraisal is a bulk-price estimator for Eve Online. Forked from: https://github.com/evepraisal/go-evepraisal
 
-Hosted at: https://praisal.avanto.tk.
+Hosted at: appraisal.space.
 
 Price information is limited to Jita and polling rate is decreased to 60 minutes from the original.
 
@@ -62,15 +62,15 @@ The following was tested on Ubuntu Server 18.10
 - Download and build evepraisal
 
 ```
-  ~$ mkdir -p $GOPATH/src/github.com/calli-eve/go-evepraisal
-  ~$ cd $GOPATH/src/github.com/calli-eve/go-evepraisal
-  ~/go/src/github.com/calli-eve/go-evepraisal$ git clone https://github.com/calli-eve/go-evepraisal.git .
-  ~/go/src/github.com/calli-eve/go-evepraisal$ make setup
-  ~/go/src/github.com/calli-eve/go-evepraisal$ make build
+  ~$ mkdir -p $GOPATH/src/github.com/mrdigan/evepraisal
+  ~$ cd $GOPATH/src/github.com/mrdigan/evepraisal
+  ~/go/src/github.com/mrdigan/evepraisal$ git clone https://github.com/mrdigan/evepraisal.git .
+  ~/go/src/github.com/mrdigan/evepraisal$ make setup
+  ~/go/src/github.com/mrdigan/evepraisal$ make build
 ```
 
 - Run evepraisal
 
 ```
-  ~/go/src/github.com/calli-eve/go-evepraisal$ ./target/evepraisal-linux-amd64
+  ~/go/src/github.com/mrdigan/evepraisal$ ./target/evepraisal-linux-amd64
 ```

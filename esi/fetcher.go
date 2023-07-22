@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/calli-eve/go-evepraisal"
+	"github.com/mrdigan/evepraisal"
 	"github.com/sethgrid/pester"
 )
 

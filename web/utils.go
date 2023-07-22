@@ -4,9 +4,9 @@ import (
 	"math"
 
 	"github.com/dustin/go-humanize"
-	"github.com/calli-eve/go-evepraisal"
 	"github.com/leekchan/accounting"
 	"github.com/montanaflynn/stats"
+	"github.com/mrdigan/evepraisal"
 )
 
 // ISKFormat defines how ISK is rounded and displayed
