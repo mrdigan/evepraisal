@@ -1,5 +1,5 @@
 FROM golang:1.18-alpine
-LABEL maintainer="calli-eve <https://github.com/mrdigan/evepraisal>"
+LABEL maintainer="mrdigan <https://github.com/mrdigan/evepraisal>"
 WORKDIR $GOPATH/src/github.com/mrdigan/evepraisal
 RUN apk --update add --no-cache --virtual build-dependencies git gcc musl-dev make bash && \
     git clone https://github.com/mrdigan/evepraisal.git . && \
