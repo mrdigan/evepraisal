@@ -3,11 +3,11 @@ package main
 import "github.com/spf13/viper"
 
 func init() {
-	viper.SetDefault("base-url", "http://127.0.0.1:8080")
+	viper.SetDefault("base-url", "https://appraisal.space")
 	viper.SetDefault("http_addr", ":8080")
 	viper.SetDefault("http_redirect", false)
 	viper.SetDefault("https_addr", "")
-	viper.SetDefault("https_domain-whitelist", []string{"praisal.avanto.tk"})
+	viper.SetDefault("https_domain-whitelist", []string{"appraisal.space"})
 	viper.SetDefault("letsencrypt_email", "")
 	viper.SetDefault("db_path", "db/")
 	viper.SetDefault("backup_path", "db/backups/")
